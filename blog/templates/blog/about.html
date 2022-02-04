@@ -1,0 +1,12 @@
+{% extends 'blog/base.html' %}
+{% block title %}
+    {% if title %}
+        Django Blog - {{ title }}
+    {% else %}
+        Django Blog
+    {% endif %}
+{% endblock title %}
+
+{% block content %}
+    <h1>Blog About</h1>
+{% endblock content %}
